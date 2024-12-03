@@ -23,6 +23,7 @@
 
 using namespace std;
 
+// Vérifier si une chaine de chars est un nombre
 bool ceciEstUnNombre(const string& s)
 {
 	string::const_iterator it = s.begin();
