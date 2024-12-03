@@ -1,7 +1,7 @@
 // Nom du projet : Mes premiers programmes
 // Nom de l’auteur : Trompier Téo
 // Date de création : 17/09/2024
-// Résumé : TP_methode_developpement_logiciel exercices 5 jusqu'au supplement 4.
+// Résumé : Mes premiers prog fonctions
 
 #include <stdio.h>
 #include <conio.h>
