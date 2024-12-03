@@ -166,6 +166,7 @@ void exercice8() {
 	cout << "Taille d'un double : " << sizeof(double) << " octets" << endl;
 }
 
+// Jeu de la devinette classique
 void exercice9() {
 	/*
 	Pseudocode :
