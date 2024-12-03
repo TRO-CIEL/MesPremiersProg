@@ -225,6 +225,7 @@ void effetTyping(const string& mot, const int temps) {
 	cout << endl;
 }
 
+// Centrer dans la console + typing
 void centrer(const string& texte, const int temps) {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_SCREEN_BUFFER_INFO csbi;
