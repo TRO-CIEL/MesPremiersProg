@@ -205,6 +205,7 @@ void exercice9() {
 	}
 }
 
+// Changer la police d'écriture
 void police(const wstring& fontName, int fontSize) {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_FONT_INFOEX cfi;
@@ -215,6 +216,7 @@ void police(const wstring& fontName, int fontSize) {
 	SetCurrentConsoleFontEx(hConsole, FALSE, &cfi);
 }
 
+// Typing letter by letter
 void effetTyping(const string& mot, const int temps) {
 	for (char lettre : mot) {
 		cout << lettre << flush;
