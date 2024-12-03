@@ -304,6 +304,7 @@ string PhraseDepart(vector<string>& options, int& dernierIndex) {
 	return options[index];
 }
 
+// Adaptation en fonction de l'entrée de l'utilisateur pour gérer plusieurs mots
 string difficulte(const string& reponse) {
 	vector<string> motsFaciles = {
 		"facile", "easy", "f", "e", "simple",
