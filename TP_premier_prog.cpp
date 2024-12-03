@@ -86,6 +86,7 @@ void supplement2() {
 	}
 }
 
+// Character to Hexa
 void exercice6() {
 	/*
 	Pseudocode :
