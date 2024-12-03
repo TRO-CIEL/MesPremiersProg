@@ -69,6 +69,7 @@ void exercice5() {
 	cout << "Au revoir !";
 }
 
+// Supplément pour le prog pièce avec une boucle
 void supplement2() {
 	double total = 100;
 
