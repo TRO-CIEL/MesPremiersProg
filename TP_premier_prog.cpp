@@ -64,6 +64,7 @@ void exercice5() {
 
 	cout << "Le resultat est de : " << total << "EUR\n";
 
+	// Delay en seconde
 	this_thread::sleep_for(chrono::seconds(1));
 	cout << "Au revoir !";
 }
