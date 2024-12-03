@@ -238,6 +238,7 @@ void centrer(const string& texte, const int temps) {
 	cout << endl;
 }
 
+// Analyse du contexte de la phrase et deduction du sentiment (+ ou -)
 string analyseDeSentiment(const string& reponse) {
 	const vector<string> reponsesPositives = {
 		"oui", "o", "yes", "y", "bien sûr", "évidemment", "nous sommes plusieurs",
