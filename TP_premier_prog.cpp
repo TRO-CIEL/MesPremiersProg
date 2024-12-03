@@ -31,6 +31,7 @@ bool ceciEstUnNombre(const string& s)
 	return !s.empty() && it == s.end();
 }
 
+// Calcul du nombre de pièces
 void exercice5() {
 	double pieceCent1 = 0.00, pieceCent2 = 0.00, pieceCent5 = 0.00, pieceCent10 = 0.00, pieceCent20 = 0.00, pieceCent50 = 0.00, pieceEuro1 = 0.00, pieceEuro2 = 0.00;
 	double total = 0.00;
