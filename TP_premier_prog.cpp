@@ -146,6 +146,7 @@ void exercice7() {
 		<< dec << endl;
 }
 
+// Obtenir la taille des types de var
 void exercice8() {
 	/*
 	Pseudocode :
