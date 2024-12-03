@@ -337,6 +337,7 @@ string difficulte(const string& reponse) {
 	return "inconnue";
 }
 
+// Générateur aléatoire via une graine et par rapport au temps
 int generation(const string& niveau) {
 	auto tempsActuel = chrono::high_resolution_clock::now().time_since_epoch().count();
 	mt19937 generateur(static_cast<unsigned long>(tempsActuel));
